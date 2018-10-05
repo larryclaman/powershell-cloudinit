@@ -1,0 +1,7 @@
+#cloud-config
+write_files:
+  - path: "/tmp/my_file.txt"
+    permissions: "0644"
+    owner: "root"
+    content: |
+      Here is some sample content.
